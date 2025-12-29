@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Loan Calculator Comparison | ItsYourIncome.com vs. Competitors</title>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .comparison-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+        
+        .comparison-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .feature-category {
+            background: #f0f0f0;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .checkmark {
+            color: #10b981;
+            font-size: 1.5rem;
+        }
+        
+        .xmark {
+            color: #ef4444;
+            font-size: 1.5rem;
+        }
+        
+        .partial {
+            color: #f59e0b;
+            font-size: 1.5rem;
+        }
+        
+        .our-calculator {
+            background: #f0fdf4;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+        
+        .highlight-box h3 {
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+        
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .highlight-box li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .highlight-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .calculator-screenshot {
+            max-width: 100%;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .calculator-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .calculator-card h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        
+        .pros-cons {
+            margin: 1rem 0;
+        }
+        
+        .pros-cons h4 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .pros {
+            color: #10b981;
+        }
+        
+        .cons {
+            color: #ef4444;
+        }
+        
+        .pros-cons ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        
+        .pros-cons li {
+            margin: 0.25rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-trophy"></i> Student Loan Calculator Comparison</h1>
+            <p class="subtitle">How ItsYourIncome.com Stacks Up Against the Competition</p>
+        </header>
+
+        <div class="highlight-box">
+            <h3>Why Our Calculator Stands Out</h3>
+            <ul>
+                <li>Handles multiple individual loans with different rates and types</li>
+                <li>Visualizes 4+ years of borrowing with semester-by-semester disbursements</li>
+                <li>Shows in-school interest accumulation in real-time</li>
+                <li>Interactive charts showing balance over time, payment breakdown, and more</li>
+                <li>Supports one-time payments, in-school payments, and multiple repayment strategies</li>
+                <li>Full amortization schedule with month-by-month details</li>
+                <li>Scenario comparison tool to evaluate different strategies side-by-side</li>
+                <li>100% free, no sign-up required, works offline</li>
+            </ul>
+        </div>
+
+        <h2>Feature Comparison</h2>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th class="our-calculator">ItsYourIncome.com</th>
+                    <th>NerdWallet</th>
+                    <th>Federal Loan Simulator</th>
+                    <th>Bankrate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="feature-category">
+                    <td colspan="5"><i class="fas fa-chart-bar"></i> Loan Input & Flexibility</td>
+                </tr>
+                <tr>
+                    <td>Multiple loans with different rates</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Multiple loans</td>
+                    <td><span class="checkmark">✓</span> Multiple loans</td>
+                    <td><span class="xmark">✗</span> Aggregated only</td>
+                    <td><span class="partial">~</span> Limited</td>
+                </tr>
+                <tr>
+                    <td>Year-by-year borrowing</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> 4 years, 3 disbursements/year</td>
+                    <td><span class="checkmark">✓</span> 4 years</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Semester-level disbursements</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Customizable months</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Federal vs. Private loan types</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> All types</td>
+                    <td><span class="checkmark">✓</span> Subsidized/Unsubsidized</td>
+                    <td><span class="checkmark">✓</span> Federal only</td>
+                    <td><span class="partial">~</span> Basic</td>
+                </tr>
+                <tr>
+                    <td>Origination fees</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Automatic by loan type</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+
+                <tr class="feature-category">
+                    <td colspan="5"><i class="fas fa-dollar-sign"></i> Repayment Options</td>
+                </tr>
+                <tr>
+                    <td>Standard repayment</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                </tr>
+                <tr>
+                    <td>Income-Driven Repayment (IDR)</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> SAVE, PAYE, IBR, ICR</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="checkmark">✓</span> All plans</td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Graduated repayment</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Customizable increase</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>In-school payments</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Per loan, per year</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>One-time lump sum payments</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Multiple, any month</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+
+                <tr class="feature-category">
+                    <td colspan="5"><i class="fas fa-chart-line"></i> Visualizations & Analysis</td>
+                </tr>
+                <tr>
+                    <td>Interactive charts</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> 4 chart types</td>
+                    <td><span class="partial">~</span> Basic graph</td>
+                    <td><span class="partial">~</span> Basic graph</td>
+                    <td><span class="partial">~</span> Basic graph</td>
+                </tr>
+                <tr>
+                    <td>Balance over time visualization</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Interactive</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="partial">~</span> Static</td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Individual loan tracking</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Per-loan charts</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Payment breakdown (principal vs. interest)</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Visual chart</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Full amortization schedule</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Month-by-month</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="partial">~</span> Year-by-year</td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+
+                <tr class="feature-category">
+                    <td colspan="5"><i class="fas fa-wrench"></i> Advanced Features</td>
+                </tr>
+                <tr>
+                    <td>Scenario comparison</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Side-by-side</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="partial">~</span> Sequential</td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Save/Export scenarios</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> JSON, CSV, Share link</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span> Must log in</td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Works offline</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> PWA</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>No sign-up required</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span></td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="xmark">✗</span> Login for save</td>
+                    <td><span class="checkmark">✓</span></td>
+                </tr>
+                <tr>
+                    <td>Mobile-friendly</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Fully responsive</td>
+                    <td><span class="checkmark">✓</span></td>
+                    <td><span class="partial">~</span> Limited</td>
+                    <td><span class="checkmark">✓</span></td>
+                </tr>
+
+                <tr class="feature-category">
+                    <td colspan="5"><i class="fas fa-bullseye"></i> User Experience</td>
+                </tr>
+                <tr>
+                    <td>Ads</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> None</td>
+                    <td><span class="xmark">✗</span> Heavy ads</td>
+                    <td><span class="checkmark">✓</span> None</td>
+                    <td><span class="xmark">✗</span> Ads present</td>
+                </tr>
+                <tr>
+                    <td>Guided tour</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Interactive</td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                    <td><span class="xmark">✗</span></td>
+                </tr>
+                <tr>
+                    <td>Educational content</td>
+                    <td class="our-calculator"><span class="checkmark">✓</span> Tooltips & guides</td>
+                    <td><span class="checkmark">✓</span> Articles</td>
+                    <td><span class="checkmark">✓</span> Help text</td>
+                    <td><span class="checkmark">✓</span> Articles</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Detailed Calculator Reviews</h2>
+
+        <div class="comparison-grid">
+            <div class="calculator-card our-calculator">
+                <h3><i class="fas fa-trophy"></i> ItsYourIncome.com</h3>
+                <p><strong>Best For:</strong> Students who want complete control and detailed planning</p>
+
+                <div class="pros-cons">
+                    <h4 class="pros"><i class="fas fa-check"></i> Strengths</h4>
+                    <ul>
+                        <li>Most comprehensive loan modeling available</li>
+                        <li>Handles complex scenarios (multiple loans, different types)</li>
+                        <li>Beautiful, interactive visualizations</li>
+                        <li>Scenario comparison tool</li>
+                        <li>In-school payment planning</li>
+                        <li>One-time payment modeling</li>
+                        <li>Full amortization schedule</li>
+                        <li>No ads, no tracking, works offline</li>
+                        <li>Export and share capabilities</li>
+                    </ul>
+
+                    <h4 class="cons">✗ Limitations</h4>
+                    <ul>
+                        <li>More complex interface (but guided tour helps)</li>
+                        <li>Requires more input for full accuracy</li>
+                    </ul>
+                </div>
+
+                <p><strong>Verdict:</strong> ⭐⭐⭐⭐⭐ The most powerful and flexible student loan calculator available. Perfect for students who want to truly understand their debt and plan strategically.</p>
+            </div>
+
+            <div class="calculator-card">
+                <h3>NerdWallet</h3>
+                <p><strong>Best For:</strong> Quick estimates with multiple loans</p>
+
+                <div class="pros-cons">
+                    <h4 class="pros">✓ Strengths</h4>
+                    <ul>
+                        <li>Simple, clean interface</li>
+                        <li>Handles multiple loans</li>
+                        <li>Year-by-year input</li>
+                        <li>Distinguishes subsidized vs. unsubsidized</li>
+                        <li>Good educational content</li>
+                    </ul>
+
+                    <h4 class="cons">✗ Limitations</h4>
+                    <ul>
+                        <li>Heavy advertising throughout</li>
+                        <li>No visualization of balance over time</li>
+                        <li>No in-school payment planning</li>
+                        <li>No scenario comparison</li>
+                        <li>No amortization schedule</li>
+                        <li>Limited repayment options (standard only)</li>
+                        <li>No export/save functionality</li>
+                    </ul>
+                </div>
+
+                <p><strong>Verdict:</strong> ⭐⭐⭐ Good for basic calculations, but limited by ads and lack of advanced features.</p>
+            </div>
+
+            <div class="calculator-card">
+                <h3>Federal Loan Simulator</h3>
+                <p><strong>Best For:</strong> Federal loan borrowers exploring IDR plans</p>
+
+                <div class="pros-cons">
+                    <h4 class="pros">✓ Strengths</h4>
+                    <ul>
+                        <li>Official government tool</li>
+                        <li>All IDR plans included</li>
+                        <li>Can import actual loan data (with login)</li>
+                        <li>Accurate federal loan calculations</li>
+                        <li>No ads</li>
+                    </ul>
+
+                    <h4 class="cons">✗ Limitations</h4>
+                    <ul>
+                        <li>Federal loans only (no private)</li>
+                        <li>No individual loan tracking</li>
+                        <li>Limited visualization</li>
+                        <li>No in-school planning</li>
+                        <li>Requires login to save</li>
+                        <li>Clunky interface</li>
+                        <li>No scenario comparison</li>
+                    </ul>
+                </div>
+
+                <p><strong>Verdict:</strong> ⭐⭐⭐⭐ Essential for federal borrowers exploring IDR, but limited for planning during school.</p>
+            </div>
+
+            <div class="calculator-card">
+                <h3>Bankrate</h3>
+                <p><strong>Best For:</strong> Very simple, single-loan estimates</p>
+
+                <div class="pros-cons">
+                    <h4 class="pros">✓ Strengths</h4>
+                    <ul>
+                        <li>Extremely simple interface</li>
+                        <li>Fast calculations</li>
+                        <li>Mobile-friendly</li>
+                    </ul>
+
+                    <h4 class="cons">✗ Limitations</h4>
+                    <ul>
+                        <li>Single loan only</li>
+                        <li>No year-by-year input</li>
+                        <li>No visualization</li>
+                        <li>No advanced features</li>
+                        <li>Ads present</li>
+                        <li>Very basic output</li>
+                    </ul>
+                </div>
+
+                <p><strong>Verdict:</strong> ⭐⭐ Too basic for most students' needs.</p>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <h3>🎯 Bottom Line: Why Choose ItsYourIncome.com?</h3>
+            <p>If you're serious about understanding your student loans and making informed decisions, our calculator is the clear choice. Here's why:</p>
+            <ul>
+                <li><strong>Complete Picture:</strong> Model your entire college journey, not just a single loan</li>
+                <li><strong>Strategic Planning:</strong> Test different payment strategies before you commit</li>
+                <li><strong>Visual Learning:</strong> See exactly how interest accumulates and payments break down</li>
+                <li><strong>No Distractions:</strong> Zero ads, zero tracking, zero BS</li>
+                <li><strong>Future-Proof:</strong> Save and compare scenarios as your plans evolve</li>
+            </ul>
+            <p><strong>The difference?</strong> Other calculators give you a number. We give you understanding and control.</p>
+        </div>
+
+        <div class="cta-box">
+            <h3>🚀 Try Our Calculator Now</h3>
+            <p>Experience the difference for yourself. No sign-up, no credit card, no catch.</p>
+            <a href="../index.html" class="calculator-button">Launch Student Loan Calculator →</a>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-section">
+            <div class="faq-item">
+                <h3>Why is your calculator better than NerdWallet's?</h3>
+                <p>While NerdWallet's calculator is good for basic estimates, ours goes much further:</p>
+                <ul>
+                    <li>We show you <strong>how</strong> interest accumulates during school, not just the final number</li>
+                    <li>We let you plan in-school payments and one-time payments</li>
+                    <li>We provide interactive charts and full amortization schedules</li>
+                    <li>We have zero ads and don't track you</li>
+                    <li>We let you compare scenarios side-by-side</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>Should I use the Federal Loan Simulator instead?</h3>
+                <p>Use both! The Federal Loan Simulator is excellent for exploring Income-Driven Repayment plans <em>after</em> you graduate. Our calculator is better for:</p>
+                <ul>
+                    <li>Planning <strong>before</strong> and <strong>during</strong> school</li>
+                    <li>Understanding how interest accumulates</li>
+                    <li>Modeling private loans alongside federal loans</li>
+                    <li>Testing in-school payment strategies</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is your calculator really free?</h3>
+                <p>Yes! Completely free, no sign-up required, no ads, no tracking. We built this because we believe students deserve better tools to understand their debt.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How accurate is your calculator?</h3>
+                <p>Our calculator uses the same formulas as loan servicers to calculate interest and payments. The accuracy depends on the accuracy of your inputs. We recommend:</p>
+                <ul>
+                    <li>Using your actual loan amounts and interest rates</li>
+                    <li>Checking your loan types (subsidized vs. unsubsidized vs. private)</li>
+                    <li>Verifying your disbursement schedule with your school</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 ItsYourIncome.com | <a href="../index.html">Home</a> | <a href="index.html">Case Studies</a></p>
+            <p style="font-size: 0.9rem; color: #666;">
+                This comparison is based on publicly available features as of December 2025.
+                Calculator features may change over time.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
