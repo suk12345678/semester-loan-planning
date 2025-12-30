@@ -74,7 +74,7 @@ main {
 
 .subtitle {
     font-size: 1.25rem;
-    color: #7f8c8d;
+    color: #4a5c6d;
 }
 
 .content {
@@ -112,7 +112,7 @@ main {
 }
 
 .content a {
-    color: #f39c12;
+    color: #9a5907;
     text-decoration: none;
 }
 
@@ -186,7 +186,7 @@ main {
 }
 
 .related-resources p {
-    color: #7f8c8d;
+    color: #4a5c6d;
     margin-bottom: 1rem;
 }
 
@@ -204,7 +204,7 @@ main {
 }
 
 .related-resources a {
-    color: #f39c12;
+    color: #9a5907;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
@@ -220,11 +220,11 @@ footer {
     margin: 3rem auto 2rem;
     padding: 2rem;
     text-align: center;
-    color: #7f8c8d;
+    color: #4a5c6d;
 }
 
 footer a {
-    color: #f39c12;
+    color: #9a5907;
     text-decoration: none;
     font-weight: 600;
 }
@@ -312,6 +312,6 @@ footer a:hover {
 }
 
 .intro p {
-    color: #7f8c8d;
+    color: #4a5c6d;
     font-size: 1.1rem;
 }
