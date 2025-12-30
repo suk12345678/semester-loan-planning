@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex from University of Michigan shares the semester-by-semester loan planning system that saved them from over-borrowing $15k.">
+    <title>semester loan planning system | alex's spreadsheet approach</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background-color: #f0f4f8;
+            color: #1a1a1a;
+            line-height: 1.6;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #00274c;
+            color: white;
+            padding: 24px;
+            margin: -10px -10px 25px -10px;
+            text-align: center;
+            border-bottom: 4px solid #ffcb05;
+        }
+
+        .header h1 {
+            color: white;
+            margin: 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .header p {
+            margin: 8px 0 0 0;
+            font-size: 14px;
+            color: #ffcb05;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #00274c;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #00274c;
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            border-left: 4px solid #ffcb05;
+            padding-left: 12px;
+        }
+
+        h3 {
+            color: #003d7a;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 14px;
+            font-size: 15px;
+        }
+
+        strong {
+            font-weight: 600;
+            color: #00274c;
+        }
+
+        .data-box {
+            background-color: #e3f2fd;
+            border: 2px solid #1976d2;
+            padding: 18px;
+            margin: 22px 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        .system-box {
+            background-color: #fff8e1;
+            border-left: 4px solid #f57c00;
+            padding: 20px;
+            margin: 24px 0;
+        }
+
+        .mistake-box {
+            background-color: #ffebee;
+            border-left: 4px solid #c62828;
+            padding: 20px;
+            margin: 24px 0;
+        }
+
+        a {
+            color: #1976d2;
+            font-weight: 500;
+        }
+
+        .highlight {
+            background-color: #ffcb05;
+            padding: 2px 4px;
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #00274c;
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #00274c;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Alex's Semester Planning System</h1>
+        <p>University of Michigan Junior | Economics Major | Spreadsheet Enthusiast</p>
+    </div>
+
+    <div class="container">
+        <h1>the semester-by-semester loan planning system</h1>
+        <p class="subtitle">Here's the system I built after over-borrowing $15k freshman year. Data-driven, practical, and it actually works.</p>
+
+        <div class="mistake-box">
+            <p><strong>My $15,000 mistake:</strong> Freshman year, I borrowed the maximum amount offered "just in case." I didn't track my actual expenses. I didn't plan semester by semester. I just clicked "accept" on everything.</p>
+            <p>By the end of freshman year, I had $15,000 more in loans than I actually needed. At 5% interest over 10 years, that's an extra $4,000 in interest. For money I didn't even use.</p>
+            <p>I'm an economics major. I should have known better. But I didn't have a system. Now I do, and I'm sharing it.</p>
+        </div>
+
+        <h2>here's the system</h2>
+
+        <p>This is the step-by-step process I use every semester to borrow exactly what I need - no more, no less.</p>
+
+        <h3>Step 1: Calculate your actual costs (4-6 weeks before semester)</h3>
+
+        <div class="system-box">
+            <p><strong>Make a spreadsheet with these categories:</strong></p>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <td>Tuition</td>
+                    <td>$_____</td>
+                    <td>Check your student account</td>
+                </tr>
+                <tr>
+                    <td>Fees</td>
+                    <td>$_____</td>
+                    <td>Don't forget lab fees, rec center, etc.</td>
+                </tr>
+                <tr>
+                    <td>Housing (semester total)</td>
+                    <td>$_____</td>
+                    <td>Dorm or rent × months</td>
+                </tr>
+                <tr>
+                    <td>Meal plan / Food</td>
+                    <td>$_____</td>
+                    <td>Be realistic, not optimistic</td>
+                </tr>
+                <tr>
+                    <td>Books & Supplies</td>
+                    <td>$_____</td>
+                    <td>Check syllabi, buy used when possible</td>
+                </tr>
+                <tr>
+                    <td>Transportation</td>
+                    <td>$_____</td>
+                    <td>Gas, parking, or flights home</td>
+                </tr>
+                <tr>
+                    <td>Personal / Misc</td>
+                    <td>$_____</td>
+                    <td>Toiletries, laundry, phone bill</td>
+                </tr>
+                <tr>
+                    <td><strong>TOTAL NEEDED</strong></td>
+                    <td><strong>$_____</strong></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <h3>Step 2: Calculate what you have (resources)</h3>
+
+        <p>Now list every dollar you have available:</p>
+        <ul>
+            <li>Money in your bank account you can use</li>
+            <li>Expected income from work-study or part-time job</li>
+            <li>Scholarships or grants for this semester</li>
+            <li>Family contribution (if any)</li>
+            <li>Money from summer job</li>
+        </ul>
+
+        <div class="data-box">
+            <p>TOTAL COSTS: $______</p>
+            <p>MINUS RESOURCES: $______</p>
+            <p>= AMOUNT TO BORROW: $______</p>
+        </div>
+
+        <p><span class="highlight">This is your target number.</span> Not the maximum offered. Not "just in case" money. Your actual gap.</p>
+
+        <h3>Step 3: Add a small buffer (but be strategic)</h3>
+
+        <p>I learned this the hard way: you need SOME buffer for unexpected costs. But not $5,000. Here's my rule:</p>
+
+        <ul>
+            <li>If your gap is under $5,000: add $300-500 buffer</li>
+            <li>If your gap is $5,000-$10,000: add $500-750 buffer</li>
+            <li>If your gap is over $10,000: add $750-1,000 buffer</li>
+        </ul>
+
+        <p>This covers things like: textbook you didn't know about, medical copay, laptop charger dies, etc. But it's not "fun money" or "maybe I'll need it" money.</p>
+
+        <h3>Step 4: Only accept what you need</h3>
+
+        <p>When you get your financial aid offer, you can accept LESS than the maximum. Here's how:</p>
+
+        <ol>
+            <li>Log into your school's financial aid portal</li>
+            <li>Find your loan offer (usually subsidized first, then unsubsidized)</li>
+            <li>Click "modify" or "adjust" (every school's system is different)</li>
+            <li>Enter your calculated amount instead of the maximum</li>
+            <li>Accept only what you need</li>
+        </ol>
+
+        <div class="system-box">
+            <p><strong>Pro tip:</strong> Accept subsidized loans first (no interest while in school), then unsubsidized only if you need more. Never accept PLUS loans unless you've exhausted everything else.</p>
+        </div>
+
+        <h2>the data that convinced me</h2>
+
+        <p>I ran the numbers on my freshman year mistake. Here's what borrowing that extra $15,000 "just in case" actually cost me:</p>
+
+        <div class="data-box">
+            <p>Extra amount borrowed: $15,000</p>
+            <p>Interest rate: 5.0%</p>
+            <p>Repayment term: 10 years</p>
+            <p>Monthly payment on that $15k: $159</p>
+            <p>Total interest paid: $4,090</p>
+            <p><strong>Total cost of "just in case": $19,090</strong></p>
+        </div>
+
+        <p>That's $4,090 I'm paying in interest for money I didn't even need. Money that sat in my checking account earning 0.01% interest while accruing 5% interest in loans.</p>
+
+        <p>Never again.</p>
+
+        <h2>how this system saved me</h2>
+
+        <p>Since implementing this system sophomore year:</p>
+
+        <ul>
+            <li><strong>Fall 2022:</strong> Borrowed $7,200 instead of $10,500 offered (saved $3,300)</li>
+            <li><strong>Spring 2023:</strong> Borrowed $6,800 instead of $10,500 offered (saved $3,700)</li>
+            <li><strong>Fall 2023:</strong> Borrowed $8,100 instead of $10,500 offered (saved $2,400)</li>
+        </ul>
+
+        <p>Total saved so far: <span class="highlight">$9,400 in unnecessary debt</span></p>
+
+        <p>Over 10 years at 5% interest, that's about $3,000 in interest I won't have to pay. And I still have three more semesters to optimize.</p>
+
+        <h2>common questions</h2>
+
+        <h3>"What if I underestimate and need more money mid-semester?"</h3>
+
+        <p>You can request additional loans mid-semester, but it's a hassle. That's why the buffer is important. But honestly? In two years of using this system, I've never needed to request more. The buffer has always been enough.</p>
+
+        <h3>"What if I get a scholarship after I've already accepted loans?"</h3>
+
+        <p>You can usually reduce your loan amount before disbursement. Contact your financial aid office. I did this spring semester when I got an unexpected $1,000 scholarship - reduced my loan by $1,000 the same day.</p>
+
+        <h3>"Isn't it safer to just borrow extra?"</h3>
+
+        <p>No. Here's why: every dollar you borrow costs you about $1.27 over 10 years (at 5% interest). So that $5,000 "safety net"? It actually costs you $6,350. That's not safety - that's expensive.</p>
+
+        <p>A real safety net is: emergency fund in savings, part-time job, knowing you can request additional aid if truly needed.</p>
+
+        <h2>the spreadsheet I actually use</h2>
+
+        <p>I track everything in a Google Sheet with tabs for:</p>
+        <ul>
+            <li>Semester-by-semester cost projections</li>
+            <li>Actual spending vs. projected (I review this monthly)</li>
+            <li>Total loan balance tracker</li>
+            <li>Interest calculations</li>
+            <li>Post-graduation payment scenarios</li>
+        </ul>
+
+        <p>Is it nerdy? Yes. Does it work? Absolutely.</p>
+
+        <div class="system-box">
+            <p><strong>Tools I use:</strong></p>
+            <ul>
+                <li>Google Sheets for tracking (free, accessible anywhere)</li>
+                <li><a href="https://www.itsyourincome.com" target="_blank">This loan calculator</a> for running scenarios (not affiliated, just useful)</li>
+                <li>My school's financial aid portal (check it weekly during aid season)</li>
+                <li>Mint or YNAB for actual spending tracking</li>
+            </ul>
+        </div>
+
+        <h2>my advice</h2>
+
+        <p>Look, I know not everyone is a spreadsheet person. But you don't have to be. The core principle is simple:</p>
+
+        <p><span class="highlight">Calculate what you actually need. Borrow that amount plus a small buffer. Nothing more.</span></p>
+
+        <p>Every semester, before you accept your financial aid, spend 30 minutes doing the math. That's it. 30 minutes that could save you thousands of dollars.</p>
+
+        <p>I wish I'd done this freshman year. I can't change that. But I can make sure I don't make the same mistake again, and I can help other students avoid it entirely.</p>
+
+        <p>The system works. The data proves it. And your future self will thank you.</p>
+
+        <div class="mistake-box" style="margin-top: 35px;">
+            <p><strong>Disclaimer:</strong> I'm an economics major, not a financial advisor. This is my personal system based on my experience at University of Michigan. Your costs and situation will be different. Run your own numbers. Talk to your financial aid office. Make informed decisions.</p>
+            <p>But please, please don't just click "accept maximum" without thinking about it. That's how I ended up with $15,000 in unnecessary debt.</p>
+        </div>
+
+        <footer>
+            <p>This is educational content based on personal experience, not professional financial advice</p>
+            <p>Written by Alex, University of Michigan Class of 2026</p>
+            <p style="margin-top: 12px; font-size: 13px;">If this system helps you, share it with other students. We can all make better borrowing decisions with the right tools and information.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
